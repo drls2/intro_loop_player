@@ -19,7 +19,7 @@ async def main():
 
     bg_size = width, height = 300, 200
     screen = pygame.display.set_mode(bg_size)
-    pygame.display.set_caption("Music - FishC Demo")
+    pygame.display.set_caption("Music - drls2's Demo")
 
     paused = False
 

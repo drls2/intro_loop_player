@@ -13,8 +13,8 @@ async def main():
 
 
 
-    # pygame.mixer.music.load("spamton_neo_mix_ex_wip.ogg")
-    pygame.mixer.music.load("battle.ogg")
+    pygame.mixer.music.load("spamton_neo_mix_ex_wip.ogg")
+    # pygame.mixer.music.load("battle.ogg")
     pygame.mixer.music.play(-1)
 
 

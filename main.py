@@ -13,10 +13,18 @@ async def main():
 
 
 
-    pygame.mixer.music.load("spamton_neo_mix_ex_wip.ogg")
-    # pygame.mixer.music.load("battle.ogg")
-    pygame.mixer.music.play(-1)
+    # pygame.mixer.music.load("spamton_neo_mix_ex_wip.ogg")
+    # # pygame.mixer.music.load("battle.ogg")
+    # pygame.mixer.music.play(-1)
 
+    pygame.mixer.music.load("sys_title/M_sys_title_intro.mp3.ogg")
+    pygame.mixer.music.play()
+    pygame.mixer.music.queue(filename = "sys_title/M_sys_title_loop.mp3.ogg", loops = -1)
+
+    
+    
+    
+    
 
     bg_size = width, height = 300, 200
     screen = pygame.display.set_mode(bg_size)

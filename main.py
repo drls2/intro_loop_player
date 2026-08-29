@@ -17,9 +17,13 @@ async def main():
     # # pygame.mixer.music.load("battle.ogg")
     # pygame.mixer.music.play(-1)
 
-    pygame.mixer.music.load("sys_title/M_sys_title_intro.mp3.ogg")
+    # pygame.mixer.music.load("sys_title/M_sys_title_intro.mp3.ogg")
+    # pygame.mixer.music.play()
+    # pygame.mixer.music.queue(filename = "sys_title/M_sys_title_loop.mp3.ogg", loops = -1)
+    
+    pygame.mixer.music.load("act12side/m_sys_act12side_intro.wav")
     pygame.mixer.music.play()
-    pygame.mixer.music.queue(filename = "sys_title/M_sys_title_loop.mp3.ogg", loops = -1)
+    pygame.mixer.music.queue(filename = "act12side/m_sys_act12side_loop.wav", loops = -1)
 
     
     
